@@ -4,6 +4,6 @@ ctx = input("Enter commit message: ")
 
 os.system("git add .")
 os.system(f'git commit -m "{ctx}"')
-os.system("git push origin main")
+os.system("git push -u origin main")
 
 print("Changes Have Been Commited!")
